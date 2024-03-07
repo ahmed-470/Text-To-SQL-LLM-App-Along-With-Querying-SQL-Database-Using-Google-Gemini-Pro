@@ -14,10 +14,10 @@ SECTION VARCHAR(255));"""
 cursor.execute(table) 
   
 # Queries to INSERT records. 
-cursor.execute('''INSERT INTO STUDENT VALUES ('Krish', 'Data Science', 'A')''') 
-cursor.execute('''INSERT INTO STUDENT VALUES ('Darius', 'Data Science', 'B')''') 
-cursor.execute('''INSERT INTO STUDENT VALUES ('Sudhanshu', 'Devops', 'C')''') 
-cursor.execute('''INSERT INTO STUDENT VALUES ('Vikash', 'Data Science', 'C')''') 
+cursor.execute('''INSERT INTO STUDENT VALUES ('ahmed', 'Data Science', 'A')''') 
+cursor.execute('''INSERT INTO STUDENT VALUES ('john', 'Data Science', 'B')''') 
+cursor.execute('''INSERT INTO STUDENT VALUES ('viola', 'Devops', 'C')''') 
+cursor.execute('''INSERT INTO STUDENT VALUES ('harry', 'Data Science', 'C')''') 
   
 # Display data inserted 
 print("Data Inserted in the table: ") 
